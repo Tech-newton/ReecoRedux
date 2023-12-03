@@ -1,0 +1,105 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 2,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 3,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 4,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 5,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 6,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 7,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 8,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 9,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        },
+        {
+            "id": 10,
+            "productName": "is simply dummy text of the printing and typesetting industry. my text ever since the 1500s, when an unknown",
+            "brand": "Brand A",
+            "price": 10.99,
+            "quantity": 50,
+            "total":0,
+            "cssStatus":"",
+            "status": ""
+        }
+
+    ]
+}

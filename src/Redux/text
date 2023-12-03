@@ -1,0 +1,26 @@
+setMissing: (state, action) => {
+      const { productId } = action.payload;
+      const productToUpdate = state.products.find(product => product.id === productId);
+
+      if (productToUpdate) {
+        productToUpdate.status = 'missing';
+      }
+    },
+    updatePrice: (state, action) => {
+      const { productId, newPrice } = action.payload;
+      const productToUpdate = state.products.find(product => product.id === productId);
+
+      if (productToUpdate) {
+        productToUpdate.price = newPrice;
+        productToUpdate.status = 'Price Updated';
+      }
+    },
+    updateQuantity: (state, action) => {
+      const { productId, newQuantity } = action.payload;
+      const productToUpdate = state.products.find(product => product.id === productId);
+
+      if (productToUpdate) {
+        productToUpdate.quantity = newQuantity;
+        productToUpdate.status = 'Quantity Updated';
+      }
+    },

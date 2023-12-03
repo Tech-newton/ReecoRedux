@@ -1,0 +1,79 @@
+.modalCSS{
+  max-width: 50% !important; /* Adding !important to ensure it overrides Bootstrap styles */
+  margin: 0 auto !important;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .productImg {
+    flex: 1;
+    background-color: #eee;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 15px;
+  }
+  
+  .info-wrapper {
+    flex: 2;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* padding: 20px; */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .commonWrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .priceField,
+  .quantityField,
+  .totalField {
+    display: flex;
+    align-items: center;
+  }
+  
+  .priceField input,
+  .quantityField input,
+  .totalField input {
+    /* flex: 1; */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    width: 100px;
+    margin-right: 100px;
+  }
+  
+  .quantityField .unit {
+    margin-left: 5px;
+    font-style: italic;
+  }
+  
+  .total input {
+    background-color: #eee;
+  }
+
+  .sendButtondisabled{
+    background-color: #ddd;
+    color: black;
+    border-radius: 19px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  .sendButton{
+    background-color: #1E633F;
+    color: #fff;
+    border-radius: 19px;
+    padding: 5px 20px;
+    cursor: pointer;
+}

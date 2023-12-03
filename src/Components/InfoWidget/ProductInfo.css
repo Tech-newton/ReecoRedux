@@ -1,0 +1,33 @@
+.productInfos{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Create 6 equal columns */
+    background-color: #FFFFFF;
+    box-shadow: 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    border: 3px solid #EFEFEF;
+    border-radius: 7px;
+    justify-content: space-around;
+    max-height: 14vh;
+    
+}
+
+.productInfos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    /* max-width: 100px; */
+}
+
+.infoBox p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #7B7B7B;
+}
+
+.infoBox h5{
+    font-size: 16px;
+}

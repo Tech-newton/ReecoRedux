@@ -1,0 +1,48 @@
+.headerDiv{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ddd; /* Add a border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+.headerContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-between;
+   
+}
+
+.leftHeaderContent .lighterHeading{
+    font-size: 0.7rem;
+}
+.leftHeaderContent span{
+    text-decoration: underline;
+}
+
+.rightHeaderContent{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-between;
+}
+
+.rightHeaderContent button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.backButton{
+    background-color: #fff;
+    outline: none;
+}
+
+.approveButton{
+    background-color: #1E633F;
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+.navigationDiv{
+    width: 100%;
+    background-color: #1E633F;
+}
+
+.navigationContainer{
+    width: 90%;
+    margin: auto;
+}
+.groupButtons{
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-between;
+
+}
+
+.leftGroupButtons{
+    width: 30%;
+}
+
+.leftGroupButtons h4{
+    color: #FFFFFF;
+}
+
+.leftNavigations{
+    width: 70%;
+}
+.leftNavigations p, .rightGroupButtons{
+color: #C1D5CC;
+}
+
+
+.rightGroupButtons{
+    width: 15%;
+    min-width: 80px;
+}
